@@ -251,6 +251,7 @@
     <Content Include="app\angular-seed\.gitignore" />
     <Content Include="app\angular-seed\app\app.css" />
     <Content Include="app\angular-seed\app\app.js" />
+    <Content Include="app\angular-seed\app\bootstrap.css" />
     <Content Include="app\angular-seed\app\components\version\interpolate-filter.js" />
     <Content Include="app\angular-seed\app\components\version\interpolate-filter_test.js" />
     <Content Include="app\angular-seed\app\components\version\version-directive.js" />
@@ -259,6 +260,7 @@
     <Content Include="app\angular-seed\app\components\version\version_test.js" />
     <Content Include="app\angular-seed\app\index-async.html" />
     <Content Include="app\angular-seed\app\index.html" />
+    <Content Include="app\angular-seed\app\Supernice.css" />
     <Content Include="app\angular-seed\app\view1\view1.html" />
     <Content Include="app\angular-seed\app\view1\view1.js" />
     <Content Include="app\angular-seed\app\view1\view1_test.js" />

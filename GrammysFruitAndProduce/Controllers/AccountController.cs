@@ -19,12 +19,22 @@ using GrammysFruitAndProduce.Results;
 
 namespace GrammysFruitAndProduce.Controllers
 {
-    [Authorize]
+    //[Authorize] cut this out to remove not authorized 401 error
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {
         private const string LocalLoginProvider = "Local";
         private ApplicationUserManager _userManager;
+
+        // GET api/Account/test 
+        [HttpGet] //define type of request
+        [Route("test")] 
+        public string test()
+        {
+            return "test successful";
+        }
+
+
 
         public AccountController()
         {
